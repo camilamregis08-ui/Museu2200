@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O Misterioso Posto de Gasolina</title>
+
+    <style>
+      *{ box-sizing: border-box; }
+
+      html{ scroll-behavior: smooth; }
+
+      body{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #ece97f;
+        color: rgb(5, 5, 5);
+      }
+
+      header{
+        background-color: #1b1b1b;
+        color: rgb(237, 24, 24);
+        text-align: center;
+        padding: 50px 20px;
+      }
+
+      header p{ color: #c9c271; }
+
+      nav{
+        background-color: #333;
+        text-align: center;
+        padding: 15px;
+      }
+
+      nav a{
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+      }
+
+      nav a:hover{ color: #e0c875; }
+
+      main{
+        max-width: 1000px;
+        margin: auto;
+        padding: 30px 20px;
+      }
+
+      section{
+        background-color: rgba(255, 0, 0, 0.553);
+        margin-bottom: 25px;
+        padding: 25px;
+        border-radius: 10px;
+      }
+
+      h2{ border-bottom: 2px solid #e22727; }
+
+      .destaque{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+      }
+
+      .destaque img{
+        width: 40%;
+        border-radius: 10px;
+      }
+
+      .codigo{
+        color: #777;
+        font-size: 14px;
+      }
+
+      .etiqueta{
+        display: inline-block;
+        background-color: #ffffff;
+        padding: 8px 12px;
+        border-radius: 20px;
+        font-weight: bold;
+      }
+
+      .hipoteses{
+        display: flex;
+        gap: 15px;
+      }
+
+      article{
+        flex: 1;
+        background-color: rgb(255, 235, 156);
+        padding: 18px;
+        border-radius: 8px;
+      }
+
+      aside{
+        background-color: #15153d;
+        color: white;
+        padding: 25px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+      }
+
+      blockquote{
+        border-left: 4px solid #1815cc;
+        margin-left: 0;
+        padding: 20px;
+        font-style: italic;
+      }
+
+      table{
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,td{
+        border: 1px solid #cccccc;
+        text-align: left;
+        padding: 10px;
+      }
+
+      th{
+        background-color: #333;
+        color: white;
+        text-align: center;
+      }
+
+      .alerta{
+        background-color: #fff1d6;
+        border-left: 6px solid #d59326;
+      }
+
+      footer{
+        background-color: #1b1b1b;
+        color: white;
+        text-align: center;
+        padding: 30px;
+        font-size: 16px;
+      }
+
+      @media (max-width: 700px){
+        .destaque, .hipoteses{ flex-direction: column; }
+        .destaque img{ width: 100%; }
+        nav a{ display: block; }
+        table{ font-size: 13px; }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <p>MUSEU DE ARQUEOLOGIA DIGITAL</p>
+      <h1>Arquivo Histórico — 2200</h1>
+      <p>Reconstruindo os misteriosos costumes da humanidade do século XXI.</p>
+    </header>
+
+    <nav>
+      <a href="#artefato">Artefato</a>
+      <a href="#descoberta">Descoberta</a>
+      <a href="#hipoteses">Hipóteses</a>
+      <a href="#evidencias">Evidências</a>
+      <a href="#arqueologo">Arqueólogo</a>
+    </nav>
+
+    <main>
+      <section id="artefato" class="destaque">
+        <img
+          src="https://thumbs.dreamstime.com/b/bomba-de-nitro-gasolina-com-pot%C3%AAncia-concha-m%C3%A9dia-vertical-armada-carapa%C3%A7a-e-sinaliza%C3%A7%C3%A3o-logotipo-ao-ar-livre-numa-num-posto-248480533.jpg"
+          alt="Estrutura misteriosa encontrada pelos arqueólogos"
+        />
+
+        <article>
+          <p class="codigo">ARTEFATO #PG-2200-031</p>
+          <h2>Estranha Estrutura com Líquidos</h2>
+
+          <p class="etiqueta">Importância cultural: 10/10</p>
+
+          <p>
+            Estrutura encontrada em uma antiga área urbana brasileira.
+            Os pesquisadores ainda não descobriram exatamente para que ela servia.
+          </p>
+
+          <p>
+            O objeto possui mangueiras, números, botões e enormes reservatórios
+            contendo um líquido colorido. A hipótese inicial é de que fosse algum
+            tipo de bebida extremamente cara.
+          </p>
+
+          <p>Um documento da época dizia:</p>
+
+          <blockquote>"Completa, por favor."</blockquote>
+        </article>
+      </section>
+
+      <section id="descoberta">
+        <h2>Local da descoberta</h2>
+
+        <p>
+          O artefato foi encontrado em 17 de março de 2197 durante uma escavação
+          nas ruínas de uma antiga área comercial.
+        </p>
+
+        <p>
+          <strong>Local histórico:</strong>
+          Sorocaba, antiga região denominada do estado de  São Paulo, Brasil.
+        </p>
+
+        <p>
+          A estrutura ficava próxima a uma estrada. Milhares de pessoas pareciam
+          passar pelo local e, misteriosamente, paravam por alguns minutos.
+        </p>
+
+        <h3>Objetos encontrados próximos</h3>
+
+        <ul>
+          <li>Uma grande máquina com números</li>
+          <li>Várias mangueiras coloridas</li>
+          <li>Uma placa com preços absurdamente altos</li>
+          <li>Um recibo com a palavra "litros"</li>
+          <li>Um pneu</li>
+          <li>Uma pequena loja cheia de salgadinhos</li>
+        </ul>
+
+        <blockquote>"Pode colocar 50 reais."</blockquote>
+
+        <p>
+          Os arqueólogos ainda discutem se "50 reais" representava uma quantidade
+          de bebida, um ritual de pagamento ou simplesmente um tipo de pedido.
+        </p>
+      </section>
+
+      <section>
+        <h2>Descrição física</h2>
+
+        <p>
+          O local apresenta uma enorme cobertura, máquinas verticais e várias
+          mangueiras penduradas. Embaixo delas existem veículos parados,
+          aparentemente esperando alguma coisa.
+        </p>
+
+        <p>
+          <strong>Altura da cobertura:</strong> aproximadamente 8 metros<br />
+          <strong>Área:</strong> aproximadamente 1.000 m²<br />
+          <strong>Materiais:</strong> metal, concreto, plástico e vidro<br />
+          <strong>Conteúdo dos reservatórios:</strong> líquido não identificado
+        </p>
+
+        <p>
+          Inicialmente, acreditou-se que as mangueiras fossem utilizadas para
+          servir bebidas gigantes.
+        </p>
+
+        <p>
+          A hipótese ganhou força porque os líquidos possuíam nomes curiosos:
+          <strong>Gasolina, Etanol e Diesel</strong>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Função provável</h2>
+
+        <p>
+          A principal teoria atual é que o local funcionava como uma espécie
+          de "bar de líquidos" a dúvida que fica é: para carros ou pessoas.
+        </p>
+
+        <p>
+          O cliente chegava com seu veículo, escolhia um líquido, entregava
+          dinheiro e recebia o produto por uma mangueira. Um sistema bastante
+          sofisticado para uma simples bebida.
+        </p>
+
+        <blockquote>"Coloca gasolina comum."</blockquote>
+        <blockquote>"Pode completar com etanol."</blockquote>
+
+        <p>
+          Os pesquisadores ainda não descobriram por que alguém colocaria
+          uma bebida dentro de um carro.
+        </p>
+      </section>
+
+      <section id="hipoteses">
+        <h2>Principais hipóteses arqueológicas</h2>
+
+        <div class="hipoteses">
+          <article>
+            <h3>Hipótese A</h3>
+
+            <p><strong>Bar de bebidas automotivas</strong></p>
+
+            <p>
+              Os habitantes chegavam com seus veículos e escolhiam entre
+              diferentes líquidos. A teoria explica as mangueiras e os preços.
+            </p>
+          </article>
+
+          <article>
+            <h3>Hipótese B</h3>
+
+            <p><strong>Posto de socialização de pessoas</strong></p>
+
+            <p>
+              Alguns pesquisadores acreditam que as pessoas iam com seus carros para encontrar amigos e conersar.
+            </p>
+          </article>
+
+          <article>
+            <h3>Hipótese C</h3>
+
+            <p><strong>Ritual de viagem</strong></p>
+
+            <p>
+              Esta teoria afirma que abastecer o veículo antes de uma viagem
+              era uma tradição importante da sociedade do século XXI.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Reconstrução do possível ritual</h2>
+
+        <ol>
+          <li>Parar o veículo embaixo da grande cobertura.</li>
+          <li>Escolher uma das misteriosas mangueiras.</li>
+          <li>Informar uma quantidade de "litros".</li>
+          <li>Entregar dinheiro ou algum cartão.</li>
+          <li>Colocar a mangueira em uma abertura do veículo.</li>
+          <li>Esperar o líquido ser transferido.</li>
+          <li>Ir embora como se aquilo fosse completamente normal.</li>
+        </ol>
+
+        <p>
+          A expressão <strong>"enche o tanque"</strong> aparece repetidamente
+          nos registros. Ainda não sabemos por que um tanque de veículo precisava
+          ser "enchido" com algo que aparentemente parecia uma bebida.
+        </p>
+      </section>
+
+      <section id="evidencias">
+        <h2>Evidências linguísticas</h2>
+
+        <p>
+          A linguagem utilizada pelos habitantes do século XXI deixou os
+          arqueólogos completamente confusos.
+        </p>
+
+        <table>
+          <tr>
+            <th>Expressão encontrada</th>
+            <th>Interpretação em 2200</th>
+          </tr>
+
+          <tr>
+            <td>"Completa o tanque"</td>
+            <td>Pedido para encher um enorme copo de bebida</td>
+          </tr>
+
+          <tr>
+            <td>"Tá na reserva"</td>
+            <td>O estoque pessoal de bebida estava acabando</td>
+          </tr>
+
+          <tr>
+            <td>"Quanto está a gasolina?"</td>
+            <td>Pergunta sobre o preço da bebida</td>
+          </tr>
+
+          <tr>
+            <td>"Enche o tanque"</td>
+            <td>Pedido de porção grande</td>
+          </tr>
+
+          <tr>
+            <td>"Passa no posto"</td>
+            <td>Vamos fazer uma parada para beber alguma coisa</td>
+          </tr>
+
+          <tr>
+            <td>"Gasolina aditivada"</td>
+            <td>Possível versão premium da bebida</td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <h2>Fragmentos digitais recuperados</h2>
+
+        <p>
+          Diversos vídeos e mensagens foram recuperados de antigas plataformas
+          digitais. Muitos mencionavam a misteriosa substância chamada gasolina.
+        </p>
+
+        <p>Um dos registros dizia:</p>
+
+        <blockquote>
+          "Gasolina tá muito cara."
+        </blockquote>
+
+        <p>
+          A interpretação inicial foi de que a gasolina fosse uma bebida gourmet,
+          talvez importada e extremamente valorizada.
+        </p>
+
+        <p>
+          Outro registro dizia "meu carro faz 10 km por litro", levando os
+          pesquisadores a acreditar que alguns veículos eram extremamente
+          eficientes no consumo de bebidas.
+        </p>
+      </section>
+
+      <aside id="arqueologo">
+        <h2>Comentário do arqueólogo</h2>
+
+        <h3>Dr. Elias Gray</h3>
+
+        <p>Instituto de Arqueologia Rodoviária — 2200</p>
+
+        <blockquote>
+          Durante muito tempo acreditamos que a gasolina fosse algum tipo de
+          refrigerante consumido exclusivamente por automóveis.
+        </blockquote>
+
+        <blockquote>
+          O problema é que ninguém conseguiu encontrar um único carro com boca,
+          canudo ou copo.
+        </blockquote>
+
+        <blockquote>
+          Também não entendemos por que os humanos ficavam tão preocupados
+          quando o preço dessa bebida aumentava.
+        </blockquote>
+
+        <p>
+          Atualmente, trabalhamos com a hipótese de que os veículos não bebiam
+          gasolina exatamente da mesma maneira que os humanos bebiam refrigerante.
+          Porém, ainda não conseguimos explicar o motivo.
+        </p>
+      </aside>
+
+      <section>
+        <h2>Teorias rejeitadas</h2>
+
+        <h3>Refrigerante gigante</h3>
+
+        <p>
+          A primeira teoria dizia que as mangueiras serviam para colocar
+          refrigerante diretamente nos veículos.
+        </p>
+
+        <p>
+          A hipótese foi abandonada depois que nenhum arqueólogo conseguiu
+          explicar por que existiam diferentes "sabores", como gasolina e diesel.
+        </p>
+
+        <h3>Lavanderia de carros</h3>
+
+        <p>
+          Outro grupo acreditava que os líquidos eram usados para lavar
+          internamente os veículos.
+        </p>
+
+        <p>
+          A teoria foi considerada estranha, mas não foi completamente descartada.
+        </p>
+      </section>
+
+      <section>
+        <h2>Objeto associado: a misteriosa bomba</h2>
+
+        <p>
+          Próxima à estrutura foi encontrada uma máquina com visor, números,
+          botões e uma mangueira. Ela foi apelidada pelos pesquisadores de
+          <strong>"Bomba de Bebida Veicular"</strong>.
+        </p>
+
+        <p>
+          A máquina aparentemente calculava quanto líquido havia sido entregue
+          e quanto o humano deveria pagar.
+        </p>
+
+        <p>
+          O detalhe mais estranho é que o valor aumentava enquanto o líquido
+          continuava saindo. Os arqueólogos consideraram isso uma forma bastante
+          eficiente de causar desespero.
+        </p>
+      </section>
+
+      <section>
+        <h2>Perguntas ainda sem resposta</h2>
+
+        <ul>
+          <li>Por que os humanos colocavam líquidos misteriosos nos veículos?</li>
+          <li>Por que gasolina, aparentemente, não era bebida por humanos?</li>
+          <li>Por que o diesel tinha uma aparência diferente?</li>
+          <li>Por que os preços mudavam tanto?</li>
+          <li>Por que os veículos precisavam "beber" para funcionar?</li>
+          <li>Por que existiam lojas de salgadinhos dentro desses locais?</li>
+          <li>O que exatamente significa "abastecer"?</li>
+        </ul>
+      </section>
+
+      <section class="alerta">
+        <h2>⚠ Nota de segurança do museu</h2>
+
+        <p>
+          Visitantes não devem tentar beber, provar ou colocar qualquer líquido
+          encontrado em uma bomba histórica na boca.
+        </p>
+
+        <p>
+          Apesar da hipótese inicial de que a gasolina fosse um refrigerante,
+          nenhuma evidência confirma que ela fosse adequada para consumo humano.
+        </p>
+      </section>
+
+      <section>
+        <h2>Classificação final</h2>
+
+        <p>
+          <strong>Nome conhecido:</strong>
+          Posto de Gasolina
+        </p>
+
+        <p>
+          <strong>Nome arqueológico:</strong>
+          Estação de Bebidas para Máquinas Motorizadas
+        </p>
+
+        <p>
+          <strong>Possível conteúdo:</strong>
+          Gasolina, Etanol e Diesel
+        </p>
+
+        <p>
+          <strong>Período:</strong>
+          aproximadamente 1950–2060
+        </p>
+
+        <p>
+          <strong>Uso confirmado:</strong>
+           ainda não descoberto
+        </p>
+
+        <p>
+          <strong>Teoria mais estranha:</strong>
+          refrigerante para carros
+        </p>
+
+        <p>
+          <strong>Nível atual de compreensão:</strong>
+          76%
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Museu de Arqueologia Digital — Ano 2200</p>
+      <p>Departamento de Estudos das Coisas que Ninguém Entendeu até hoje</p>
+      <p> Camila Medeiros Regis  - 2 °A</p>
+    </footer>
+  </body>
+</html>
